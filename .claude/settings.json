@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"c:\\\\Users\\\\mrali\\\\Documents\\\\applications\\\\frontend-automation-build-pr-deploy\\\\venv\\\\Scripts\\\\pip.exe\" install *)",
+      "PowerShell(& \"C:\\\\Users\\\\mrali\\\\Documents\\\\applications\\\\frontend-automation-build-pr-deploy\\\\venv\\\\Scripts\\\\pip.exe\" install -r \"C:\\\\Users\\\\mrali\\\\Documents\\\\applications\\\\frontend-automation-build-pr-deploy\\\\requirements.txt\")",
+      "PowerShell(python --version)",
+      "PowerShell(pip --version)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(ls \"C:\\\\Users\\\\mrali\\\\Documents\\\\applications\\\\consenz-frontend-deployment\\\\backend\\\\dev\\\\aplx-py-project-genie\" 2>/dev/null | head -30)",
+      "Read(//c/Users/mrali/Documents/applications/consenz-frontend-deployment/backend/dev/aplx-py-project-genie/**)",
+      "PowerShell(pip install langchain-openai 2>&1)",
+      "Bash(python app.py)",
+      "Bash(echo \"EXIT:$?\")",
+      "PowerShell(netstat -ano)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\mrali\\.claude"
+    ]
+  }
+}

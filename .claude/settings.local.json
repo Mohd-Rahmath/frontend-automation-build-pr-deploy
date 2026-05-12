@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(\"c:\\\\Users\\\\mrali\\\\Documents\\\\applications\\\\frontend-automation-build-pr-deploy\\\\venv\\\\Scripts\\\\python.exe\" -c \"import langchain; print\\('langchain ok'\\)\")",
+      "Bash(venv\\\\Scripts\\\\pip install *)"
+    ]
+  }
+}
